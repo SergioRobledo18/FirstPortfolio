@@ -573,4 +573,12 @@ body {
         margin-top:5%
     }
 
+    .individualProject{
+        width: 350px;
+        height: 450px;
+    }
+    .bottomText p{
+        font-size:10px;
+    }
+
   }
