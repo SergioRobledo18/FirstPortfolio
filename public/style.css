@@ -96,10 +96,7 @@ body {
     grid-template-columns: auto auto;
 }
 
-.bioItem{
-    text-align: center;
-    padding:10px;
-}
+
 .aboutMeDescription{
     width: 100%;
     text-align: left;
@@ -107,11 +104,14 @@ body {
     margin-right: 50px;
 }
 
+.bioItem{
+    text-align: center;
+    padding:10px;
+}
+
 .aboutMeImage{
-    width: 60%;
-    height: 90%;
-    border-radius: 30px;
-    margin-right: 10%;
+    width: 40%;
+    border-radius: 10px;
 }
 
 .yearDescription{
@@ -460,7 +460,6 @@ body {
 @media (max-width: 1500px) {
     #slide img{
         width: 80%;
-        height:70%;
         border-radius: 5%;
     }
 
@@ -540,8 +539,7 @@ body {
     
     .aboutMeImage{
         margin-right: 0%;
-        width: 90%;
-        height: 90%;
+        width: 70%;
     }
     .yearDescription{
         margin-right: 0%;
